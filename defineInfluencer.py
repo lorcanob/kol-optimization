@@ -8,7 +8,7 @@ kolRoster = []
 
 class Influencer:
     '''This initialises the attributes and methods required to 
-    turn the csv input data into the useful csv output data.'''
+    turn the processed csv input data into the useful csv output data.'''
     def __init__(self, name, gender, snsPlatform, followers, trueReach, absEng, percEng, influence, emv, monthlyPosts):
         self.name = name
         self.gender = gender
@@ -31,6 +31,7 @@ class Influencer:
         self.KlearReachScore = None
         self.EngScore = None
         self.ReachScore = None
+        self.ReachOptPost = None
         self.rateDict = {"Facebook" :   [2.5], # {"Platform": [Platform rate, Average Platform followers]}
                         "Instagram" :   [1], 
                         "Twitter"   :   [0.2], 
