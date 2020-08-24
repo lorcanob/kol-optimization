@@ -15,3 +15,10 @@ import writeKOLCSV
 #
 # PRIORITY B
 # Change response of empty input cell to: if(empty) [if(column=0)[break] else[set=0]]
+#
+#
+# COMMIT-PUSH SEQUENCE
+# git add *files to update*
+# git commit -m "comment"
+# git remote add origin "https://github.com/lorcanob/kol-optimization.git" # THIS PART MAY BE OPTIONAL
+# git push -u origin master
